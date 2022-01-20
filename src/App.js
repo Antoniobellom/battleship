@@ -418,6 +418,49 @@ function App() {
             onClick={() => fireTorpedo(8, 9)}
           ></button>
         </div>
+        <div className="filas">
+        <button
+            className={getClassname(9, 0) + " boton-base"}
+            onClick={() => fireTorpedo(9, 0)}
+          ></button>
+          <button
+            className={getClassname(9, 1) + " boton-base"}
+            onClick={() => fireTorpedo(9, 1)}
+          ></button>
+          <button
+            className={getClassname(9, 2) + " boton-base"}
+            onClick={() => fireTorpedo(9, 2)}
+          ></button>
+          <button
+            className={getClassname(9, 3) + " boton-base"}
+            onClick={() => fireTorpedo(9, 3)}
+          ></button>
+          <button
+            className={getClassname(9, 4) + " boton-base"}
+            onClick={() => fireTorpedo(9, 4)}
+          ></button>
+          <button
+            className={getClassname(9, 5) + " boton-base"}
+            onClick={() => fireTorpedo(9, 5)}
+          ></button>
+          <button
+            className={getClassname(9, 6) + " boton-base"}
+            onClick={() => fireTorpedo(9, 6)}
+          ></button>
+          <button
+            className={getClassname(9, 7) + " boton-base"}
+            onClick={() => fireTorpedo(9, 7)}
+          ></button>
+          <button
+            className={getClassname(9, 8) + " boton-base"}
+            onClick={() => fireTorpedo(9, 8)}
+          ></button>
+          <button
+            className={getClassname(9, 9) + " boton-base"}
+            onClick={() => fireTorpedo(9, 9)}
+          ></button>
+        </div>
+      
       </div>
     </div>
   );

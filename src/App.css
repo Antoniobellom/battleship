@@ -1,7 +1,7 @@
-.app{
+.app {
   background-color: grey;
 }
-.tablero{
+.tablero {
   display: flex;
   flex-direction: column;
 }
@@ -9,16 +9,28 @@
   width: 30px;
   height: 30px;
 }
-.filas{
+.filas {
   display: flex;
   flex-direction: row;
 }
-.blanco{
+.blanco {
   background-color: white;
 }
-.rojo{
+.rojo {
   background-color: red;
 }
-.gris{
+.gris {
   background-color: grey;
+}
+.firebtn {
+  width: 30px;
+  height: 30px;
+  margin-top: 15px;
+  text-justify: auto;
+}
+.showships {
+  width: 60px;
+  height: 40px;
+  margin-top: 15px;
+  text-justify: auto;
 }
